@@ -1,6 +1,6 @@
 # Laravel Admin Dashboard — Role & Permission Management
 
-A secure and customizable admin dashboard built with **Laravel, PHP, MySQL, and Bootstrap**. This project provides admin authentication, role-based access control (RBAC), permission management, and user administration.
+A secure and customizable admin dashboard built with **Laravel, PHP, MySQL, and Bootstrap**. This project provides admin authentication, role-based access control (RBAC), permission management, and user administration. with api authentication and authorization functionality
 
 ## 🚀 Project Overview
 
@@ -168,13 +168,7 @@ php artisan db:seed
 
 Only use seeders that are actually provided by the project. If no administrator seeder exists, create the initial administrator through a secure setup process.
 
-### Step 6: Install frontend dependencies
 
-If the project contains `package.json`, run:
-
-```bash
-npm install
-npm run build
 ```
 
 During frontend development, you can instead run:
@@ -302,8 +296,26 @@ Laravel Developer | PHP | MySQL | React.js | REST APIs
 
 - **GitHub:** https://github.com/adashhytrix
 - **Portfolio:** https://adashhytrix.github.io/portfolio/
-- **Website:** https://adarshdev.tech
+- **Website:** https://adashhytrix.github.io/portfolio/
 
 ## 📄 License
 
 This project uses Laravel. The license for this specific application should be stated according to the license you choose for your own code. Laravel's framework license does not automatically determine the license of your entire application.
+
+
+
+
+short installing process
+
+1. first need to download 
+2. open terminal and run composer install 
+3. rename .env.example file to .env
+4. migrate php artisan migrate
+5. seeder us php artisan db:seed
+6. type url /admin/login
+7. credential for login please check AdminSeeder.php
+
+for more detail contact github or mail or website message
+
+
+
